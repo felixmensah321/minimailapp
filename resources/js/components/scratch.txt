@@ -1,0 +1,32 @@
+ <!-- Builder UI -->
+                            <!--<div class="col-md-3">
+                                <div class="card">
+                                    <div class="card-header">Supermax Fields</div>
+                                    <div class="card-body p-1">
+
+                                        <draggable v-model="fields">
+                                            <transition-group class="list-group" tag="ul">
+                                                <li class="list-group-item p-1" v-for="element in fields" :key="element.id">
+                                                    <small>{{element.name}}</small>
+                                                </li>
+                                            </transition-group>
+                                        </draggable>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-9">
+
+
+                                <draggable element="span" v-model="selectedFields" v-bind="dragOptions" :move="onMove">
+                                    <transition-group name="no" class="list-group" tag="ul" style="background: red;">
+                                        <li class="list-group-item" v-for="element in selectedFields" :key="element.order">
+                                            <i :class="element.fixed? 'fa fa-anchor' : 'glyphicon glyphicon-pushpin'" @click=" element.fixed=! element.fixed" aria-hidden="true"></i>
+                                            {{element.name}}
+                                            <span class="badge">{{element.order}}</span>
+                                        </li>
+                                    </transition-group>
+                                </draggable>
+
+
+                            </div>-->
